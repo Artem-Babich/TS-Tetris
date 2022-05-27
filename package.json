@@ -1,0 +1,28 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -p ./src/tsconfig.json",
+    "babel": "babel src/index.ts --out-file lib/bundle.js"
+  },
+  "author": "Artem-Babich",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-typescript": "^7.17.12",
+    "@types/node": "^14.18.18",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "del": "^6.1.0",
+    "eslint": "^8.15.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-open": "^3.0.1",
+    "gulp-webserver": "^0.9.1",
+    "typescript": "^4.6.4"
+  }
+}
